@@ -43,5 +43,24 @@
     "build:esmodule": "swc source --config-file ./scripts/.swcrc -C module.type=es6 -d ./dist/esm",
     "build:amd": "swc source --config-file ./scripts/.swcrc -C module.type=amd -d ./dist/amd",
     "build:umd": "swc source --config-file ./scripts/.swcrc -C module.type=umd -d ./dist/esm"
-  }
+  },
+  "description": "description",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "source": "source/index.ts",
+  "dependencies": {
+    "eslint-scope": "^5.1.1",
+    "framer-motion": "^8.5.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+${gitURL}.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "${gitURL}/issues"
+  },
+  "homepage": "${gitURL}#readme"
 }
