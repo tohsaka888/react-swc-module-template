@@ -49,6 +49,11 @@
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
   "source": "source/index.ts",
+  "files": [
+    "dist",
+    "source",
+    "README.md"
+  ],
   "dependencies": {
     "eslint-scope": "^5.1.1",
     "framer-motion": "^8.5.3"
