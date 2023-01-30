@@ -55,7 +55,7 @@
     "README.md"
   ],
   "dependencies": {
-    "eslint-scope": "^5.1.1",
+    "eslint-scope": "^7.0.0",
     "framer-motion": "^8.5.3"
   },
   "repository": {
