@@ -22,7 +22,7 @@ specifiers:
   swc-loader: 0.2.3
   ts-node: ^10.9.1
   ttypescript: ^1.5.15
-  typescript: 4.9.5
+  typescript: 5.0.2
   typescript-transform-paths: ^3.4.6
   webpack: 5.76.0
   webpack-cli: 5.0.1
@@ -52,10 +52,10 @@ devDependencies:
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   swc-loader: 0.2.3_62dhaxaig5kesatatyvqo6dubm
-  ts-node: 10.9.1_gw45xzud2uxkgfqgiyqwulykq4
-  ttypescript: 1.5.15_6qtx7vkbdhwvdm4crzlegk4mvi
-  typescript: 4.9.5
-  typescript-transform-paths: 3.4.6_typescript@4.9.5
+  ts-node: 10.9.1_otskmqdao4zojkfhkj5j6l5w4u
+  ttypescript: 1.5.15_b3krtfsdr4o54pb3ito5mirk64
+  typescript: 5.0.2
+  typescript-transform-paths: 3.4.6_typescript@5.0.2
   webpack: 5.76.0_hpyjvp47bittnpkjby5wrocq2u
   webpack-cli: 5.0.1_2bp6aw3o5i2olxv2nvvmcxbok4
   webpack-dev-server: 4.11.1_66fuqojgvlon52mqukkfkspvqe
@@ -4175,7 +4175,7 @@ packages:
       escape-string-regexp: 1.0.5
     dev: true
 
-  /ts-node/10.9.1_gw45xzud2uxkgfqgiyqwulykq4:
+  /ts-node/10.9.1_otskmqdao4zojkfhkj5j6l5w4u:
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
@@ -4202,7 +4202,7 @@ packages:
       create-require: 1.1.1
       diff: 4.0.2
       make-error: 1.3.6
-      typescript: 4.9.5
+      typescript: 5.0.2
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
     dev: true
@@ -4210,7 +4210,7 @@ packages:
   /tslib/2.4.1:
     resolution: {integrity: sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==}
 
-  /ttypescript/1.5.15_6qtx7vkbdhwvdm4crzlegk4mvi:
+  /ttypescript/1.5.15_b3krtfsdr4o54pb3ito5mirk64:
     resolution: {integrity: sha512-48ykDNHzFnPMnv4hYX1P8Q84TvCZyL1QlFxeuxsuZ48X2+ameBgPenvmCkHJtoOSxpoWTWi8NcgNrRnVDOmfSg==}
     hasBin: true
     peerDependencies:
@@ -4218,8 +4218,8 @@ packages:
       typescript: '>=3.2.2'
     dependencies:
       resolve: 1.22.1
-      ts-node: 10.9.1_gw45xzud2uxkgfqgiyqwulykq4
-      typescript: 4.9.5
+      ts-node: 10.9.1_otskmqdao4zojkfhkj5j6l5w4u
+      typescript: 5.0.2
     dev: true
 
   /tunnel-agent/0.6.0:
@@ -4236,18 +4236,18 @@ packages:
       mime-types: 2.1.35
     dev: true
 
-  /typescript-transform-paths/3.4.6_typescript@4.9.5:
+  /typescript-transform-paths/3.4.6_typescript@5.0.2:
     resolution: {integrity: sha512-qdgpCk9oRHkIBhznxaHAapCFapJt5e4FbFik7Y4qdqtp6VyC3smAIPoDEIkjZ2eiF7x5+QxUPYNwJAtw0thsTw==}
     peerDependencies:
       typescript: '>=3.6.5'
     dependencies:
       minimatch: 3.1.2
-      typescript: 4.9.5
+      typescript: 5.0.2
     dev: true
 
-  /typescript/4.9.5:
-    resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
-    engines: {node: '>=4.2.0'}
+  /typescript/5.0.2:
+    resolution: {integrity: sha512-wVORMBGO/FAs/++blGNeAVdbNKtIh1rbBL2EyQ1+J9lClJ93KiiKe8PmFIVdXhHcyv44SL9oglmfeSsndo0jRw==}
+    engines: {node: '>=12.20'}
     hasBin: true
     dev: true
 
