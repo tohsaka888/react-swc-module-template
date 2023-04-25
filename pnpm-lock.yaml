@@ -14,7 +14,7 @@ specifiers:
   eslint-scope: ^7.0.0
   framer-motion: ^10.0.0
   html-webpack-plugin: 5.5.0
-  mini-css-extract-plugin: 2.7.2
+  mini-css-extract-plugin: 2.7.5
   postcss: 8.4.21
   postcss-loader: 7.0.2
   react: 18.2.0
@@ -46,7 +46,7 @@ devDependencies:
   css-loader: 6.7.3_webpack@5.76.0
   css-minimizer-webpack-plugin: 5.0.0_webpack@5.76.0
   html-webpack-plugin: 5.5.0_webpack@5.76.0
-  mini-css-extract-plugin: 2.7.2_webpack@5.76.0
+  mini-css-extract-plugin: 2.7.5_webpack@5.76.0
   postcss: 8.4.21
   postcss-loader: 7.0.2_ynsp4hpcl6ftpkdbhj2ssg4tva
   react: 18.2.0
@@ -2761,8 +2761,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /mini-css-extract-plugin/2.7.2_webpack@5.76.0:
-    resolution: {integrity: sha512-EdlUizq13o0Pd+uCp+WO/JpkLvHRVGt97RqfeGhXqAcorYo1ypJSpkV+WDT0vY/kmh/p7wRdJNJtuyK540PXDw==}
+  /mini-css-extract-plugin/2.7.5_webpack@5.76.0:
+    resolution: {integrity: sha512-9HaR++0mlgom81s95vvNjxkg52n2b5s//3ZTI1EtzFb98awsLSivs2LMsVqnQ3ay0PVhqWcGNyDaTE961FOcjQ==}
     engines: {node: '>= 12.13.0'}
     peerDependencies:
       webpack: ^5.0.0
