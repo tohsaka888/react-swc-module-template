@@ -41,8 +41,8 @@ devDependencies:
     specifier: 6.8.1
     version: 6.8.1(webpack@5.82.1)
   css-minimizer-webpack-plugin:
-    specifier: 5.0.0
-    version: 5.0.0(webpack@5.82.1)
+    specifier: 5.0.1
+    version: 5.0.1(webpack@5.82.1)
   html-webpack-plugin:
     specifier: 5.5.3
     version: 5.5.3(webpack@5.82.1)
@@ -165,7 +165,7 @@ packages:
     dependencies:
       '@jridgewell/set-array': 1.1.2
       '@jridgewell/sourcemap-codec': 1.4.14
-      '@jridgewell/trace-mapping': 0.3.17
+      '@jridgewell/trace-mapping': 0.3.18
     dev: true
 
   /@jridgewell/resolve-uri@3.1.0:
@@ -182,15 +182,15 @@ packages:
     resolution: {integrity: sha512-m7O9o2uR8k2ObDysZYzdfhb08VuEml5oWGiosa1VdaPZ/A6QyPkAJuwN0Q1lhULOf6B7MtQmHENS743hWtCrgw==}
     dependencies:
       '@jridgewell/gen-mapping': 0.3.2
-      '@jridgewell/trace-mapping': 0.3.17
+      '@jridgewell/trace-mapping': 0.3.18
     dev: true
 
   /@jridgewell/sourcemap-codec@1.4.14:
     resolution: {integrity: sha512-XPSJHWmi394fuUuzDnGz1wiKqWfo1yXecHQMRf2l6hztTO+nPru658AyDngaBe7isIxEkRsPR3FZh+s7iVa4Uw==}
     dev: true
 
-  /@jridgewell/trace-mapping@0.3.17:
-    resolution: {integrity: sha512-MCNzAp77qzKca9+W/+I0+sEpaUnZoeasnghNeVc41VZCEKaCH73Vq3BZZ/SzWIgrqE4H4ceI+p+b6C0mHf9T4g==}
+  /@jridgewell/trace-mapping@0.3.18:
+    resolution: {integrity: sha512-w+niJYzMHdd7USdiH2U6869nqhD2nbfZXND5Yp93qIbEmnDNk7PD48o+YchRVpzMU7M6jVCbenTR7PA1FLQ9pA==}
     dependencies:
       '@jridgewell/resolve-uri': 3.1.0
       '@jridgewell/sourcemap-codec': 1.4.14
@@ -1312,8 +1312,8 @@ packages:
       webpack: 5.82.1(@swc/core@1.3.62)(webpack-cli@5.0.2)
     dev: true
 
-  /css-minimizer-webpack-plugin@5.0.0(webpack@5.82.1):
-    resolution: {integrity: sha512-1wZ/PYvg+ZKwi5FX6YrvbB31jMAdurS+CmRQLwWCVSlfzJC85l/a6RVICqUHFa+jXyhilfnCyjafzJGbmz5tcA==}
+  /css-minimizer-webpack-plugin@5.0.1(webpack@5.82.1):
+    resolution: {integrity: sha512-3caImjKFQkS+ws1TGcFn0V1HyDJFq1Euy589JlD6/3rV2kj+w7r5G9WDMgSHvpvXHNZ2calVypZWuEDQd9wfLg==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       '@parcel/css': '*'
@@ -1337,12 +1337,12 @@ packages:
       lightningcss:
         optional: true
     dependencies:
-      cssnano: 6.0.0(postcss@8.4.24)
+      '@jridgewell/trace-mapping': 0.3.18
+      cssnano: 6.0.1(postcss@8.4.24)
       jest-worker: 29.5.0
       postcss: 8.4.24
-      schema-utils: 4.0.0
+      schema-utils: 4.1.0
       serialize-javascript: 6.0.1
-      source-map: 0.6.1
       webpack: 5.82.1(@swc/core@1.3.62)(webpack-cli@5.0.2)
     dev: true
 
@@ -1393,8 +1393,8 @@ packages:
     hasBin: true
     dev: true
 
-  /cssnano-preset-default@6.0.0(postcss@8.4.24):
-    resolution: {integrity: sha512-BDxlaFzObRDXUiCCBQUNQcI+f1/aX2mgoNtXGjV6PG64POcHoDUoX+LgMWw+Q4609QhxwkcSnS65YFs42RA6qQ==}
+  /cssnano-preset-default@6.0.1(postcss@8.4.24):
+    resolution: {integrity: sha512-7VzyFZ5zEB1+l1nToKyrRkuaJIx0zi/1npjvZfbBwbtNTzhLtlvYraK/7/uqmX2Wb2aQtd983uuGw79jAjLSuQ==}
     engines: {node: ^14 || ^16 || >=18.0}
     peerDependencies:
       postcss: ^8.2.15
@@ -1402,7 +1402,7 @@ packages:
       css-declaration-sorter: 6.3.1(postcss@8.4.24)
       cssnano-utils: 4.0.0(postcss@8.4.24)
       postcss: 8.4.24
-      postcss-calc: 8.2.4(postcss@8.4.24)
+      postcss-calc: 9.0.1(postcss@8.4.24)
       postcss-colormin: 6.0.0(postcss@8.4.24)
       postcss-convert-values: 6.0.0(postcss@8.4.24)
       postcss-discard-comments: 6.0.0(postcss@8.4.24)
@@ -1410,7 +1410,7 @@ packages:
       postcss-discard-empty: 6.0.0(postcss@8.4.24)
       postcss-discard-overridden: 6.0.0(postcss@8.4.24)
       postcss-merge-longhand: 6.0.0(postcss@8.4.24)
-      postcss-merge-rules: 6.0.0(postcss@8.4.24)
+      postcss-merge-rules: 6.0.1(postcss@8.4.24)
       postcss-minify-font-values: 6.0.0(postcss@8.4.24)
       postcss-minify-gradients: 6.0.0(postcss@8.4.24)
       postcss-minify-params: 6.0.0(postcss@8.4.24)
@@ -1440,13 +1440,13 @@ packages:
       postcss: 8.4.24
     dev: true
 
-  /cssnano@6.0.0(postcss@8.4.24):
-    resolution: {integrity: sha512-RGlcbzGhzEBCHuQe3k+Udyj5M00z0pm9S+VurHXFEOXxH+y0sVrJH2sMzoyz2d8N1EScazg+DVvmgyx0lurwwA==}
+  /cssnano@6.0.1(postcss@8.4.24):
+    resolution: {integrity: sha512-fVO1JdJ0LSdIGJq68eIxOqFpIJrZqXUsBt8fkrBcztCQqAjQD51OhZp7tc0ImcbwXD4k7ny84QTV90nZhmqbkg==}
     engines: {node: ^14 || ^16 || >=18.0}
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      cssnano-preset-default: 6.0.0(postcss@8.4.24)
+      cssnano-preset-default: 6.0.1(postcss@8.4.24)
       lilconfig: 2.1.0
       postcss: 8.4.24
     dev: true
@@ -2874,8 +2874,9 @@ packages:
       find-up: 4.1.0
     dev: true
 
-  /postcss-calc@8.2.4(postcss@8.4.24):
-    resolution: {integrity: sha512-SmWMSJmB8MRnnULldx0lQIyhSNvuDl9HfrZkaqqE/WHAhToYsAvDq+yAsA/kIyINDszOp3Rh0GFoNuH5Ypsm3Q==}
+  /postcss-calc@9.0.1(postcss@8.4.24):
+    resolution: {integrity: sha512-TipgjGyzP5QzEhsOZUaIkeO5mKeMFpebWzRogWG/ysonUlnHcq5aJe0jOjpfzUU8PeSaBQnrE8ehR0QA5vs8PQ==}
+    engines: {node: ^14 || ^16 || >=18.0}
     peerDependencies:
       postcss: ^8.2.2
     dependencies:
@@ -2969,8 +2970,8 @@ packages:
       stylehacks: 6.0.0(postcss@8.4.24)
     dev: true
 
-  /postcss-merge-rules@6.0.0(postcss@8.4.24):
-    resolution: {integrity: sha512-rCXkklftzEkniyv3f4mRCQzxD6oE4Quyh61uyWTUbCJ26Pv2hoz+fivJSsSBWxDBeScR4fKCfF3HHTcD7Ybqnw==}
+  /postcss-merge-rules@6.0.1(postcss@8.4.24):
+    resolution: {integrity: sha512-a4tlmJIQo9SCjcfiCcCMg/ZCEe0XTkl/xK0XHBs955GWg9xDX3NwP9pwZ78QUOWB8/0XCjZeJn98Dae0zg6AAw==}
     engines: {node: ^14 || ^16 || >=18.0}
     peerDependencies:
       postcss: ^8.2.15
@@ -3484,6 +3485,16 @@ packages:
       ajv-keywords: 5.1.0(ajv@8.12.0)
     dev: true
 
+  /schema-utils@4.1.0:
+    resolution: {integrity: sha512-Jw+GZVbP5IggB2WAn6UHI02LBwGmsIeYN/lNbSMZyDziQ7jmtAUrqKqDja+W89YHVs+KL/3IkIMltAklqB1vAw==}
+    engines: {node: '>= 12.13.0'}
+    dependencies:
+      '@types/json-schema': 7.0.11
+      ajv: 8.12.0
+      ajv-formats: 2.1.1(ajv@8.12.0)
+      ajv-keywords: 5.1.0(ajv@8.12.0)
+    dev: true
+
   /select-hose@2.0.0:
     resolution: {integrity: sha512-mEugaLK+YfkijB4fx0e6kImuJdCIt2LxCRcbEYPqRGCs4F2ogyfZU5IAZRdjCP8JPq2AtdNoC/Dux63d9Kiryg==}
     dev: true
@@ -3854,7 +3865,7 @@ packages:
       uglify-js:
         optional: true
     dependencies:
-      '@jridgewell/trace-mapping': 0.3.17
+      '@jridgewell/trace-mapping': 0.3.18
       '@swc/core': 1.3.62(@swc/helpers@0.5.1)
       jest-worker: 27.5.1
       schema-utils: 3.1.2
@@ -4082,7 +4093,7 @@ packages:
       memfs: 3.4.13
       mime-types: 2.1.35
       range-parser: 1.2.1
-      schema-utils: 4.0.0
+      schema-utils: 4.1.0
       webpack: 5.82.1(@swc/core@1.3.62)(webpack-cli@5.0.2)
     dev: true
 
