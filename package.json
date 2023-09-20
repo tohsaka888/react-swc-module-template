@@ -15,7 +15,7 @@
     "css-minimizer-webpack-plugin": "5.0.1",
     "html-webpack-plugin": "5.5.3",
     "mini-css-extract-plugin": "2.7.6",
-    "postcss": "8.4.29",
+    "postcss": "8.4.30",
     "postcss-loader": "7.3.3",
     "swc-loader": "0.2.3",
     "ts-node": "^10.9.1",
