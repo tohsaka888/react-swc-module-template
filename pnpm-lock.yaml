@@ -90,7 +90,7 @@ devDependencies:
     version: 5.10.0
   webpackbar:
     specifier: ^6.0.0
-    version: 6.0.0(webpack@5.90.3)
+    version: 6.0.1(webpack@5.90.3)
 
 packages:
 
@@ -4033,8 +4033,8 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /std-env@3.6.0:
-    resolution: {integrity: sha512-aFZ19IgVmhdB2uX599ve2kE6BIE3YMnQ6Gp6BURhW/oIzpXGKr878TQfAQZn1+i0Flcc/UKUy1gOlcfaUBCryg==}
+  /std-env@3.7.0:
+    resolution: {integrity: sha512-JPbdCEQLj1w5GilpiHAx3qJvFndqybBysA3qUOnznweH4QbNYUsW/ea8QzSrnh0vNsezMMw5bcVool8lM0gwzg==}
     dev: true
 
   /string-width@4.2.3:
@@ -4569,8 +4569,8 @@ packages:
       - uglify-js
     dev: true
 
-  /webpackbar@6.0.0(webpack@5.90.3):
-    resolution: {integrity: sha512-RdB0RskzOaix1VFMnBXSkKMbUgvZliRqgoNp0gCnG6iUe9RS9sf018AJ/1h5NAeh+ttwXkXjXKC6NdjE/OOcaA==}
+  /webpackbar@6.0.1(webpack@5.90.3):
+    resolution: {integrity: sha512-TnErZpmuKdwWBdMoexjio3KKX6ZtoKHRVvLIU0A47R0VVBDtx3ZyOJDktgYixhoJokZTYTt1Z37OkO9pnGJa9Q==}
     engines: {node: '>=14.21.3'}
     peerDependencies:
       webpack: 3 || 4 || 5
@@ -4581,7 +4581,7 @@ packages:
       figures: 3.2.0
       markdown-table: 2.0.0
       pretty-time: 1.1.0
-      std-env: 3.6.0
+      std-env: 3.7.0
       webpack: 5.90.3(@swc/core@1.4.2)(webpack-cli@5.1.4)
       wrap-ansi: 7.0.0
     dev: true
