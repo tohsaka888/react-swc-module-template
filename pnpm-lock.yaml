@@ -7,7 +7,7 @@ settings:
 dependencies:
   eslint-scope:
     specifier: ^8.0.0
-    version: 8.0.0
+    version: 8.0.1
   framer-motion:
     specifier: ^11.0.0
     version: 11.0.14(react-dom@18.2.0)(react@18.2.0)
@@ -1838,8 +1838,8 @@ packages:
       estraverse: 4.3.0
     dev: true
 
-  /eslint-scope@8.0.0:
-    resolution: {integrity: sha512-zj3Byw6jX4TcFCJmxOzLt6iol5FAr9xQyZZSQjEzW2UiCJXLwXdRIKCYVFftnpZckaC9Ps9xlC7jB8tSeWWOaw==}
+  /eslint-scope@8.0.1:
+    resolution: {integrity: sha512-pL8XjgP4ZOmmwfFE8mEhSxA7ZY4C+LWyqjQ3o4yWkkmD0qcMT9kkW3zWHOczhWcjTSgqycYAgwSlXvZltv65og==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     dependencies:
       esrecurse: 4.3.0
